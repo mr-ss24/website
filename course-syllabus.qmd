@@ -2,18 +2,18 @@
 title: "Syllabus"
 ---
 
-::: {.content-visible when-format="html"}
-[**Click here**](syllabus.pdf) **to download a PDF copy of the syllabus.**
-:::
 
 
 ## Course info
 
 |           | Day       | Time              | Location |
 |-----------|-----------|-------------------|----------|
-| Lecture   | xyz    | xx:xx  - xx:xx xx |  xx  |
+| Lecture   | Monday    | 08:15  - 09:45 am  |  [016b](https://horst.hdm-stuttgart.de/016b)  |
 
 
+:::{.callout-important}
+Note that there are additional lectures (see schedule at [StarPlan](https://splan.hdm-stuttgart.de/splan/))
+:::
 
 ## Learning objectives
 
@@ -24,7 +24,6 @@ By the end of this module, students are able to: <br>
 - Use predictive models and clustering methods <br>
 - Utilize modern tools and technologies for data analysis <br>
 - Clearly and effectively communicate results <br>
-
 
 
 ## Where to get help
@@ -39,13 +38,11 @@ Check out the [Support](course-support.qmd) page for more resources.
 
 This course is mainly based on the following resources:
 
-Çetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics. OpenIntro. Inc.
+[Çetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics. OpenIntro. Inc.](https://openintro-ims.netlify.app/)
 
-Harvard Business Review (2018). HBR Guide to Data Analytics Basics for Managers. Harvard Business Review Press.
+[James, G., Witten, D., Hastie, T., Tibshirani, R. & Taylor, J. (2023). An Introduction to Statistical Learning with Python. New York: Springer.](https://www.statlearning.com/)
 
-James, G., Witten, D., Hastie, T., Tibshirani, R. & Taylor, J. (2023). An Introduction to Statistical Learning with Python. New York: Springer.
-
-Lau, S., Gonzalez, J. & Nolan, D. (2023). Learning Data Science. O'Reilly Media, Inc.
+[Lau, S., Gonzalez, J. & Nolan, D. (2023). Learning Data Science. O'Reilly Media, Inc.](https://learningds.org/intro.html)
 
 
 ## Exam {#sec-exams}

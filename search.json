@@ -4,7 +4,7 @@
     "href": "programming-requirements.html",
     "title": "Requirements",
     "section": "",
-    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment gradio and Visual Studio Code\nEnvironment: HuggingFace API key; OpenAI API and an environment file with your APIs\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
+    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
     "crumbs": [
       "Programming",
       "Requirements"
@@ -15,7 +15,7 @@
     "href": "course-syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Click here to download a PDF copy of the syllabus.",
+    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nMonday\n08:15 - 09:45 am\n016b\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are additional lectures (see schedule at StarPlan)",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -25,8 +25,8 @@
     "objectID": "course-syllabus.html#course-info",
     "href": "course-syllabus.html#course-info",
     "title": "Syllabus",
-    "section": "Course info",
-    "text": "Course info\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLecture\nxyz\nxx:xx - xx:xx xx\nxx",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nMonday\n08:15 - 09:45 am\n016b\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are additional lectures (see schedule at StarPlan)",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -59,7 +59,7 @@
     "href": "course-syllabus.html#textbooks",
     "title": "Syllabus",
     "section": "Textbooks",
-    "text": "Textbooks\nThis course is mainly based on the following resources:\nÇetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics. OpenIntro. Inc.\nHarvard Business Review (2018). HBR Guide to Data Analytics Basics for Managers. Harvard Business Review Press.\nJames, G., Witten, D., Hastie, T., Tibshirani, R. & Taylor, J. (2023). An Introduction to Statistical Learning with Python. New York: Springer.\nLau, S., Gonzalez, J. & Nolan, D. (2023). Learning Data Science. O’Reilly Media, Inc.",
+    "text": "Textbooks\nThis course is mainly based on the following resources:\nÇetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics. OpenIntro. Inc.\nJames, G., Witten, D., Hastie, T., Tibshirani, R. & Taylor, J. (2023). An Introduction to Statistical Learning with Python. New York: Springer.\nLau, S., Gonzalez, J. & Nolan, D. (2023). Learning Data Science. O’Reilly Media, Inc.",
     "crumbs": [
       "Course information",
       "Syllabus"

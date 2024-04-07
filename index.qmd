@@ -1,7 +1,18 @@
 ---
-title: "tbd"
-subtitle: "tbd"
+title: "Market Research"
+subtitle: "Course Overview"
 ---
 
-This page contains an outline of the topics, content, and assignments for the semester.
-Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.
+Welcome to our lecture Market Research (337094a)! 👋  
+
+This page contains a weekly overview about the topics, slides and materials for the semester.
+
+- [Moodle-course](https://moodle.hdm-stuttgart.de/course/view.php?id=2464)
+
+<!-- - [Miro board 📝](https://miro.com/app/board/uXjVNair5iM=/) (password is provided in Moodle) -->
+
+
+:::{.callout-note}
+This overview will be updated as the semester progresses.
+:::
+

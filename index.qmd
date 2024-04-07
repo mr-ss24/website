@@ -12,6 +12,7 @@ This page contains a weekly overview about the topics, slides and materials for 
 <!-- - [Miro board 📝](https://miro.com/app/board/uXjVNair5iM=/) (password is provided in Moodle) -->
 
 
+
 :::{.callout-note}
 This overview will be updated as the semester progresses.
 :::

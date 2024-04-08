@@ -20,3 +20,5 @@ This overview will be updated as the semester progresses.
 |	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|	
 |	---	|	---	|	---	|	---	|		---		|	---	|	
 |	1	|		|	**Introduction**	|		|				|		|	
+|	2	|	08.04.	|	Business Model Canvas	|	[📚](https://www.strategyzer.com/library/the-business-model-canvas)	|		[📑](https://docs.google.com/presentation/d/10e41dsg1hWub-aLBB8ZvSxo7gBihw83RKWd95DPCswk/export/pdf)		|		|	
+|	3	|	08.04.	|	Data driven introduction	|		|		[📑](https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf)		|		|	

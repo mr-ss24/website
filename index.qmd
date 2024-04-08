@@ -22,3 +22,6 @@ This overview will be updated as the semester progresses.
 |	1	|		|	**Introduction**	|		|				|		|	
 |	2	|	08.04.	|	Business Model Canvas	|	[📚](https://www.strategyzer.com/library/the-business-model-canvas)	|		[📑](https://docs.google.com/presentation/d/10e41dsg1hWub-aLBB8ZvSxo7gBihw83RKWd95DPCswk/export/pdf)		|		|	
 |	3	|	08.04.	|	Data driven introduction	|		|		[📑](https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf)		|		|	
+|	4	|		|	**Data Preparation and Analysis**	|		|				|		|	
+|	5	|	09.04.	|	Market analysis lab 	|		|		[💻](https://kirenz.github.io/lab-market-analysis)		|		|	
+|	6	|	09.04.	|	How to obtain data	|		|		[📑](https://docs.google.com/presentation/d/1zldRDAOqmjoJmY_D4-ZkWfhwaklt-UfAPKH4G5kmFVY/export/pdf)		|		|	

@@ -17,11 +17,13 @@ This page contains a weekly overview about the topics, slides and materials for 
 This overview will be updated as the semester progresses.
 :::
 
-|	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|	
-|	---	|	---	|	---	|	---	|		---		|	---	|	
-|	1	|		|	**Introduction**	|		|				|		|	
-|	2	|	08.04.	|	Business Model Canvas	|	[📚](https://www.strategyzer.com/library/the-business-model-canvas)	|		[📑](https://docs.google.com/presentation/d/10e41dsg1hWub-aLBB8ZvSxo7gBihw83RKWd95DPCswk/export/pdf)		|		|	
-|	3	|	08.04.	|	Data driven introduction	|		|		[📑](https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf)		|		|	
-|	4	|		|	**Data Preparation and Analysis**	|		|				|		|	
-|	5	|	09.04.	|	Market analysis lab 	|		|		[💻](https://kirenz.github.io/lab-market-analysis)		|		|	
-|	6	|	09.04.	|	How to obtain data	|		|		[📑](https://docs.google.com/presentation/d/1zldRDAOqmjoJmY_D4-ZkWfhwaklt-UfAPKH4G5kmFVY/export/pdf)		|		|	
+|	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|
+|	---	|	---	|	---	|	---	|		---		|	---	|
+|	1	|		|	**Introduction**	|		|				|		|
+|	2	|	08.04.	|	Business Model Canvas	|	[📚](https://www.strategyzer.com/library/the-business-model-canvas)	|		[📑](https://docs.google.com/presentation/d/10e41dsg1hWub-aLBB8ZvSxo7gBihw83RKWd95DPCswk/export/pdf)		|		|
+|	3	|	08.04.	|	Data driven introduction	|		|		[📑](https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf)		|		|
+|	4	|	09.04.	|	Market analysis lab 	|		|		[💻](https://kirenz.github.io/lab-market-analysis)		|		|
+|	5	|	15.04.	|	**Market Research Process**	|		|				|		|
+|	6	|	15.04.	|	Introduction	|		|		[📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	7	|	15.04.	|	Tasks	|		|		[📑](https://docs.google.com/document/d/1Xa_6VkCWHlORthTMt9ITAnK9Z7psL9zxJ4ll44fdZqQ/edit?usp=sharing)		|		|
+|	8	|	15.04.	|	Market and environment analysis	|		|	<!--	[📑](https://docs.google.com/document/d/1bYAHZ7sre5xB7C2XnfBPDHzJpTkI5HyD1w3JNoSSKlg/edit?usp=sharing)	-->	|		|

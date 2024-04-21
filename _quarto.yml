@@ -60,11 +60,11 @@ website:
           - href: index.qmd
             text: Schedule
 
-      - section: "Programming"
+      - section: "Content"
         contents:
           - href: programming-requirements.qmd
             text: Requirements
-
+          - href: scraping-environment.qmd
 
 format:
   html:

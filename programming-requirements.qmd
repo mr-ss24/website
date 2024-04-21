@@ -1,5 +1,5 @@
 ---
-title: "Requirements"
+title: "Programming Requirements"
 ---
 
 For this course you will need the following setup:

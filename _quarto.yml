@@ -60,7 +60,7 @@ website:
           - href: index.qmd
             text: Schedule
 
-      - section: "Content"
+      - section: "Data Collection"
         contents:
           - href: programming-requirements.qmd
             text: Requirements

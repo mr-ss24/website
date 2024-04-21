@@ -295,14 +295,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="setting-up-the-anaconda-environment" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="setting-up-the-anaconda-environment"><span class="header-section-number">3</span> Setting Up the Anaconda Environment</h2>
 <p><strong>Important Note:</strong> Before proceeding with the creation of the Anaconda environment, ensure you are in the <code>data-collection</code> folder where the <code>env-scraping.yml</code> file is located. This is crucial because the <code>conda</code> command looks for the YAML file in your current directory.</p>
-<ul>
-<li>Windows User: Open Anaconda Command Prompt and navigate to the subfolder data/collection:</li>
-</ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Windows-User">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Windows-User
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Open Anaconda Command Prompt and navigate to the subfolder data/collection:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ..<span class="dt">\m</span>arket-research<span class="dt">\d</span>ata-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li>Mac-User: Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:</li>
-</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Mac-User">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Mac-User
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/market-research/data-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
 <p>Create the Anaconda Environment:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env create <span class="at">-f</span> env-scraping.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>This command will create a new environment named <code>scraping</code> and install all the dependencies listed in the YAML file.</p>

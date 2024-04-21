@@ -1,5 +1,5 @@
 ---
-title: Scraping Environment Preparation
+title: Scraping Environment
 number-sections: true
 ---
 
@@ -10,59 +10,42 @@ By following these instructions, you will have a consistent and reproducible dev
 
 ## Creating the Project Structure
 
-### For Windows Users
+- For Windows Users: Open Command Prompt (you can do this by typing `cmd` in the Windows search bar and hitting Enter).
 
-1. Open Command Prompt (you can do this by typing `cmd` in the Windows search bar and hitting Enter).
+- For Mac Users: Open Terminal (you can find this in the Applications folder under Utilities, or use Spotlight by pressing Cmd + Space and typing "Terminal").
 
-2. Create a new folder called `market-research`:
+
+1. Create a new folder called `market-research`:
 
 ```bash
 mkdir market-research
 ```
 
-3. Navigate into the `market-research` folder:
+2. Navigate into the `market-research` folder:
 
 ```bash
 cd market-research
 ```
 
-4. Create a subfolder called `data-collection`:
+3. Create a subfolder called `data-collection`:
    
 ```bash
 mkdir data-collection
 ```
 
-### For Mac Users
 
-1. Open Terminal (you can find this in the Applications folder under Utilities, or use Spotlight by pressing Cmd + Space and typing "Terminal").
-
-2. Create a new folder called `market-research`:
-
-```bash
-mkdir market-research
-```
-
-3. Navigate into the `market-research` folder:
-
-```bash
-cd market-research
-```
-
-4. Create a subfolder called `data-collection`:
-
-```bash
-mkdir data-collection
-```
-
-## Downloading the YAML File Using `curl`
-
-**For Both Windows and Mac Users:**
+## Downloading the YAML File
 
 Navigate into the `data-collection` folder before using `curl` to download the YAML file (I assume you already are in the folder `market-research`). This ensures the file is saved in the right place: 
 
 ```bash
 cd data-collection
 ```
+
+- Mac: To print the current directory path in the Terminal, you can use the command `pwd` (print working directory) without any arguments. 
+
+- Windows: To print the current directory path in the Windows Command Prompt, you can use the cd command without any arguments. Simply type: `cd`
+
 
 Now use the `curl` command to download the `env-scraping.yml` file:
 
@@ -82,7 +65,20 @@ After downloading the file, let's revisit what the `curl` command does and its p
 
 **Important Note:** Before proceeding with the creation of the Anaconda environment, ensure you are in the `data-collection` folder where the `env-scraping.yml` file is located. This is crucial because the `conda` command looks for the YAML file in your current directory.
 
-**Create the Anaconda Environment:**
+- Windows User: Open Anaconda Command Prompt and navigate to the subfolder data/collection:
+
+```bash
+cd ..\market-research\data-collection
+```
+
+- Mac-User: Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:
+
+```bash
+cd ~/market-research/data-collection
+```
+
+Create the Anaconda Environment:
+
 
 ```bash
 conda env create -f env-scraping.yml
@@ -115,7 +111,3 @@ The provided YAML file contains:
     - `altair`, `matplotlib`, `seaborn` for data visualization.
     - `requests`, `tweepy`, `beautifulsoup4` for web scraping.
     - `autopep8` for code formatting.
-
-
-
-

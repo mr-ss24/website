@@ -1,13 +1,96 @@
 [
   {
-    "objectID": "programming-requirements.html",
-    "href": "programming-requirements.html",
-    "title": "Requirements",
+    "objectID": "course-faq.html",
+    "href": "course-faq.html",
+    "title": "FAQ",
     "section": "",
-    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
+    "text": "tbd"
+  },
+  {
+    "objectID": "code/notebook.html",
+    "href": "code/notebook.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#setup",
+    "href": "code/notebook.html#setup",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#data",
+    "href": "code/notebook.html#data",
+    "title": "Notebook",
+    "section": "Data",
+    "text": "Data"
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This course offers a comprehensive overview of data-driven decision-making techniques for business related topics.\nBeginning with the Business Model Canvas, it highlights the importance of data in competitive analysis. Learners will explore study design, including data collection methods and a practical guide on conducting experiments and A/B-tests, essential for strategic decision-making. The curriculum advances through data preparation and analysis, emphasizing competitive market analysis and the transformation of raw data into actionable insights. The course delves into analytical models, covering classification, regression, and cluster analysis for market trend prediction. Participants will also master the usage of Generative AI tools, learning to optimize their work outcomes through effective AI utilization.",
     "crumbs": [
-      "Programming",
-      "Requirements"
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Course support",
+    "section": "",
+    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#lectures",
+    "href": "course-support.html#lectures",
+    "title": "Course support",
+    "section": "",
+    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#discussion-forum",
+    "href": "course-support.html#discussion-forum",
+    "title": "Course support",
+    "section": "Discussion forum",
+    "text": "Discussion forum\nPrefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use the Moodle forum as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#email",
+    "href": "course-support.html#email",
+    "title": "Course support",
+    "section": "Email",
+    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Moodle), and only use email for questions about personal matters that may not be appropriate for the public course forum. For such matters, you may email me at kirenz@hdm-stuttgart.de.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include the name of our course in the subject line.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#academic-support",
+    "href": "course-support.html#academic-support",
+    "title": "Course support",
+    "section": "Academic support",
+    "text": "Academic support\nThere are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Center for Learning and Development: it offers free services to all students.",
+    "crumbs": [
+      "Course information",
+      "Support"
     ]
   },
   {
@@ -77,59 +160,50 @@
     ]
   },
   {
-    "objectID": "course-support.html",
-    "href": "course-support.html",
-    "title": "Course support",
+    "objectID": "data-collection/scraping-environment.html",
+    "href": "data-collection/scraping-environment.html",
+    "title": "Scraping Environment Preparation",
     "section": "",
-    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
+    "text": "The following setup provides a comprehensive approach for both Windows and Mac users to create a structured project directory, download necessary files, and set up an isolated Python environment for web scraping.\nBy following these instructions, you will have a consistent and reproducible development environment, which is crucial for academic and professional projects."
   },
   {
-    "objectID": "course-support.html#lectures",
-    "href": "course-support.html#lectures",
-    "title": "Course support",
+    "objectID": "data-collection/scraping-environment.html#creating-the-project-structure",
+    "href": "data-collection/scraping-environment.html#creating-the-project-structure",
+    "title": "Scraping Environment Preparation",
+    "section": "1 Creating the Project Structure",
+    "text": "1 Creating the Project Structure\n\n1.1 For Windows Users\n\nOpen Command Prompt (you can do this by typing cmd in the Windows search bar and hitting Enter).\nCreate a new folder called market-research:\n\nmkdir market-research\n\nNavigate into the market-research folder:\n\ncd market-research\n\nCreate a subfolder called data-collection:\n\nmkdir data-collection\n\n\n1.2 For Mac Users\n\nOpen Terminal (you can find this in the Applications folder under Utilities, or use Spotlight by pressing Cmd + Space and typing “Terminal”).\nCreate a new folder called market-research:\n\nmkdir market-research\n\nNavigate into the market-research folder:\n\ncd market-research\n\nCreate a subfolder called data-collection:\n\nmkdir data-collection"
+  },
+  {
+    "objectID": "data-collection/scraping-environment.html#downloading-the-yaml-file-using-curl",
+    "href": "data-collection/scraping-environment.html#downloading-the-yaml-file-using-curl",
+    "title": "Scraping Environment Preparation",
+    "section": "2 Downloading the YAML File Using curl",
+    "text": "2 Downloading the YAML File Using curl\nFor Both Windows and Mac Users:\nNavigate into the data-collection folder before using curl to download the YAML file (I assume you already are in the folder market-research). This ensures the file is saved in the right place:\ncd data-collection\nNow use the curl command to download the env-scraping.yml file:\ncurl -LJO https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-scraping.yml\n\n2.1 Understanding curl and Its Parameters\nAfter downloading the file, let’s revisit what the curl command does and its parameters, now with the context of downloading into the data-collection folder:\n\n-L: Follows any redirects which the server might send as part of the request.\n-J: Uses the header-provided filename to save the file.\n-O: Saves the file locally with the same name as the filename on the server."
+  },
+  {
+    "objectID": "data-collection/scraping-environment.html#setting-up-the-anaconda-environment",
+    "href": "data-collection/scraping-environment.html#setting-up-the-anaconda-environment",
+    "title": "Scraping Environment Preparation",
+    "section": "3 Setting Up the Anaconda Environment",
+    "text": "3 Setting Up the Anaconda Environment\nImportant Note: Before proceeding with the creation of the Anaconda environment, ensure you are in the data-collection folder where the env-scraping.yml file is located. This is crucial because the conda command looks for the YAML file in your current directory.\nCreate the Anaconda Environment:\nconda env create -f env-scraping.yml\nThis command will create a new environment named scraping and install all the dependencies listed in the YAML file.\nActivate the Environment:\nconda activate scraping\nActivating the environment will switch your current session to use the Python version and libraries specified in the environment.\n\n3.1 Understanding the YML-file in its Content\nYAML File: YAML (YAML Ain’t Markup Language) is a human-readable data serialization standard that can be used for configuration files and other forms of data that need to be stored and transmitted. In the context of Anaconda, a YAML file specifies the environment’s name, the channels to install packages from, and the list of dependencies.\nThe provided YAML file contains:\n\nname: scraping – the environment name.\nchannels:\n\nconda-forge: a community-led collection of recipes for conda.\ndefaults: the default channel provided by Anaconda.\n\ndependencies: the packages and versions to install:\n\npython=3.11 – Python version 3.11.\npip – The Python package installer.\nOther packages within the pip subsection for various tasks:\n\npandas, openpyxl for data manipulation.\njupyter for running Jupyter notebooks.\naltair, matplotlib, seaborn for data visualization.\nrequests, tweepy, beautifulsoup4 for web scraping.\nautopep8 for code formatting."
+  },
+  {
+    "objectID": "programming-requirements.html",
+    "href": "programming-requirements.html",
+    "title": "Programming Requirements",
     "section": "",
-    "text": "If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
+    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
     "crumbs": [
-      "Course information",
-      "Support"
+      "Content",
+      "Requirements"
     ]
   },
   {
-    "objectID": "course-support.html#discussion-forum",
-    "href": "course-support.html#discussion-forum",
-    "title": "Course support",
-    "section": "Discussion forum",
-    "text": "Discussion forum\nPrefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use the Moodle forum as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#email",
-    "href": "course-support.html#email",
-    "title": "Course support",
-    "section": "Email",
-    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Moodle), and only use email for questions about personal matters that may not be appropriate for the public course forum. For such matters, you may email me at kirenz@hdm-stuttgart.de.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include the name of our course in the subject line.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#academic-support",
-    "href": "course-support.html#academic-support",
-    "title": "Course support",
-    "section": "Academic support",
-    "text": "Academic support\nThere are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Center for Learning and Development: it offers free services to all students.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
+    "objectID": "course-links.html",
+    "href": "course-links.html",
+    "title": "Useful links",
+    "section": "",
+    "text": "tbd"
   },
   {
     "objectID": "index.html",
@@ -141,51 +215,5 @@
       "Course information",
       "Schedule"
     ]
-  },
-  {
-    "objectID": "course-links.html",
-    "href": "course-links.html",
-    "title": "Useful links",
-    "section": "",
-    "text": "tbd"
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
-    "section": "",
-    "text": "This course offers a comprehensive overview of data-driven decision-making techniques for business related topics.\nBeginning with the Business Model Canvas, it highlights the importance of data in competitive analysis. Learners will explore study design, including data collection methods and a practical guide on conducting experiments and A/B-tests, essential for strategic decision-making. The curriculum advances through data preparation and analysis, emphasizing competitive market analysis and the transformation of raw data into actionable insights. The course delves into analytical models, covering classification, regression, and cluster analysis for market trend prediction. Participants will also master the usage of Generative AI tools, learning to optimize their work outcomes through effective AI utilization.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "code/notebook.html",
-    "href": "code/notebook.html",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#setup",
-    "href": "code/notebook.html#setup",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#data",
-    "href": "code/notebook.html#data",
-    "title": "Notebook",
-    "section": "Data",
-    "text": "Data"
-  },
-  {
-    "objectID": "course-faq.html",
-    "href": "course-faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "tbd"
   }
 ]

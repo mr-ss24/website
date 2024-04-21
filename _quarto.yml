@@ -64,7 +64,7 @@ website:
         contents:
           - href: programming-requirements.qmd
             text: Requirements
-          - href: scraping-environment.qmd
+          - href: data-collection/scraping-environment.qmd
 
 format:
   html:

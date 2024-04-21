@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Market research - Scraping Environment Preparation</title>
+<title>Market research - Scraping Environment</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,7 +103,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../style/styles.css">
-<meta property="og:title" content="Market research - Scraping Environment Preparation">
+<meta property="og:title" content="Market research - Scraping Environment">
 <meta property="og:description" content="Homepage for Market Research at HdM Stuttgart, SS 24.">
 <meta property="og:image" content="https://mr-ss24.github.io/website//images/logo.png">
 <meta property="og:site_name" content="Market research">
@@ -120,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../programming-requirements.html">Data Collection</a></li><li class="breadcrumb-item"><a href="../data-collection/scraping-environment.html">Scraping Environment Preparation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../programming-requirements.html">Data Collection</a></li><li class="breadcrumb-item"><a href="../data-collection/scraping-environment.html">Scraping Environment</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -202,7 +202,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../data-collection/scraping-environment.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Scraping Environment Preparation</span></a>
+ <span class="menu-text">Scraping Environment</span></a>
   </div>
 </li>
       </ul>
@@ -217,12 +217,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#creating-the-project-structure" id="toc-creating-the-project-structure" class="nav-link active" data-scroll-target="#creating-the-project-structure"><span class="header-section-number">1</span> Creating the Project Structure</a>
-  <ul class="collapse">
-  <li><a href="#for-windows-users" id="toc-for-windows-users" class="nav-link" data-scroll-target="#for-windows-users"><span class="header-section-number">1.1</span> For Windows Users</a></li>
-  <li><a href="#for-mac-users" id="toc-for-mac-users" class="nav-link" data-scroll-target="#for-mac-users"><span class="header-section-number">1.2</span> For Mac Users</a></li>
-  </ul></li>
-  <li><a href="#downloading-the-yaml-file-using-curl" id="toc-downloading-the-yaml-file-using-curl" class="nav-link" data-scroll-target="#downloading-the-yaml-file-using-curl"><span class="header-section-number">2</span> Downloading the YAML File Using <code>curl</code></a>
+  <li><a href="#creating-the-project-structure" id="toc-creating-the-project-structure" class="nav-link active" data-scroll-target="#creating-the-project-structure"><span class="header-section-number">1</span> Creating the Project Structure</a></li>
+  <li><a href="#downloading-the-yaml-file" id="toc-downloading-the-yaml-file" class="nav-link" data-scroll-target="#downloading-the-yaml-file"><span class="header-section-number">2</span> Downloading the YAML File</a>
   <ul class="collapse">
   <li><a href="#understanding-curl-and-its-parameters" id="toc-understanding-curl-and-its-parameters" class="nav-link" data-scroll-target="#understanding-curl-and-its-parameters"><span class="header-section-number">2.1</span> Understanding <code>curl</code> and Its Parameters</a></li>
   </ul></li>
@@ -236,9 +232,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../programming-requirements.html">Data Collection</a></li><li class="breadcrumb-item"><a href="../data-collection/scraping-environment.html">Scraping Environment Preparation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../programming-requirements.html">Data Collection</a></li><li class="breadcrumb-item"><a href="../data-collection/scraping-environment.html">Scraping Environment</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Scraping Environment Preparation</h1>
+<h1 class="title">Scraping Environment</h1>
 </div>
 
 
@@ -259,46 +255,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>By following these instructions, you will have a consistent and reproducible development environment, which is crucial for academic and professional projects.</p>
 <section id="creating-the-project-structure" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="creating-the-project-structure"><span class="header-section-number">1</span> Creating the Project Structure</h2>
-<section id="for-windows-users" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="for-windows-users"><span class="header-section-number">1.1</span> For Windows Users</h3>
+<ul>
+<li><p>For Windows Users: Open Command Prompt (you can do this by typing <code>cmd</code> in the Windows search bar and hitting Enter).</p></li>
+<li><p>For Mac Users: Open Terminal (you can find this in the Applications folder under Utilities, or use Spotlight by pressing Cmd + Space and typing “Terminal”).</p></li>
+</ul>
 <ol type="1">
-<li><p>Open Command Prompt (you can do this by typing <code>cmd</code> in the Windows search bar and hitting Enter).</p></li>
-<li><p>Create a new folder called <code>market-research</code>:</p></li>
+<li>Create a new folder called <code>market-research</code>:</li>
 </ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> market-research</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="3" type="1">
+<ol start="2" type="1">
 <li>Navigate into the <code>market-research</code> folder:</li>
 </ol>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> market-research</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="4" type="1">
+<ol start="3" type="1">
 <li>Create a subfolder called <code>data-collection</code>:</li>
 </ol>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> data-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="for-mac-users" class="level3" data-number="1.2">
-<h3 data-number="1.2" class="anchored" data-anchor-id="for-mac-users"><span class="header-section-number">1.2</span> For Mac Users</h3>
-<ol type="1">
-<li><p>Open Terminal (you can find this in the Applications folder under Utilities, or use Spotlight by pressing Cmd + Space and typing “Terminal”).</p></li>
-<li><p>Create a new folder called <code>market-research</code>:</p></li>
-</ol>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> market-research</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="3" type="1">
-<li>Navigate into the <code>market-research</code> folder:</li>
-</ol>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> market-research</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="4" type="1">
-<li>Create a subfolder called <code>data-collection</code>:</li>
-</ol>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> data-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="downloading-the-yaml-file-using-curl" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="downloading-the-yaml-file-using-curl"><span class="header-section-number">2</span> Downloading the YAML File Using <code>curl</code></h2>
-<p><strong>For Both Windows and Mac Users:</strong></p>
+<section id="downloading-the-yaml-file" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="downloading-the-yaml-file"><span class="header-section-number">2</span> Downloading the YAML File</h2>
 <p>Navigate into the <code>data-collection</code> folder before using <code>curl</code> to download the YAML file (I assume you already are in the folder <code>market-research</code>). This ensures the file is saved in the right place:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> data-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> data-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><p>Mac: To print the current directory path in the Terminal, you can use the command <code>pwd</code> (print working directory) without any arguments.</p></li>
+<li><p>Windows: To print the current directory path in the Windows Command Prompt, you can use the cd command without any arguments. Simply type: <code>cd</code></p></li>
+</ul>
 <p>Now use the <code>curl</code> command to download the <code>env-scraping.yml</code> file:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-LJO</span> https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-scraping.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-LJO</span> https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-scraping.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <section id="understanding-curl-and-its-parameters" class="level3" data-number="2.1">
 <h3 data-number="2.1" class="anchored" data-anchor-id="understanding-curl-and-its-parameters"><span class="header-section-number">2.1</span> Understanding <code>curl</code> and Its Parameters</h3>
 <p>After downloading the file, let’s revisit what the <code>curl</code> command does and its parameters, now with the context of downloading into the <code>data-collection</code> folder:</p>
@@ -312,11 +295,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="setting-up-the-anaconda-environment" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="setting-up-the-anaconda-environment"><span class="header-section-number">3</span> Setting Up the Anaconda Environment</h2>
 <p><strong>Important Note:</strong> Before proceeding with the creation of the Anaconda environment, ensure you are in the <code>data-collection</code> folder where the <code>env-scraping.yml</code> file is located. This is crucial because the <code>conda</code> command looks for the YAML file in your current directory.</p>
-<p><strong>Create the Anaconda Environment:</strong></p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env create <span class="at">-f</span> env-scraping.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Windows User: Open Anaconda Command Prompt and navigate to the subfolder data/collection:</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ..<span class="dt">\m</span>arket-research<span class="dt">\d</span>ata-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Mac-User: Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:</li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/market-research/data-collection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Create the Anaconda Environment:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env create <span class="at">-f</span> env-scraping.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>This command will create a new environment named <code>scraping</code> and install all the dependencies listed in the YAML file.</p>
 <p><strong>Activate the Environment:</strong></p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate scraping</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate scraping</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Activating the environment will switch your current session to use the Python version and libraries specified in the environment.</p>
 <section id="understanding-the-yml-file-in-its-content" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="understanding-the-yml-file-in-its-content"><span class="header-section-number">3.1</span> Understanding the YML-file in its Content</h3>

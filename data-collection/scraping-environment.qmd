@@ -1,0 +1,121 @@
+---
+title: Scraping Environment Preparation
+number-sections: true
+---
+
+The following setup provides a comprehensive approach for both Windows and Mac users to create a structured project directory, download necessary files, and set up an isolated Python environment for web scraping. 
+
+By following these instructions, you will have a consistent and reproducible development environment, which is crucial for academic and professional projects.
+
+
+## Creating the Project Structure
+
+### For Windows Users
+
+1. Open Command Prompt (you can do this by typing `cmd` in the Windows search bar and hitting Enter).
+
+2. Create a new folder called `market-research`:
+
+```bash
+mkdir market-research
+```
+
+3. Navigate into the `market-research` folder:
+
+```bash
+cd market-research
+```
+
+4. Create a subfolder called `data-collection`:
+   
+```bash
+mkdir data-collection
+```
+
+### For Mac Users
+
+1. Open Terminal (you can find this in the Applications folder under Utilities, or use Spotlight by pressing Cmd + Space and typing "Terminal").
+
+2. Create a new folder called `market-research`:
+
+```bash
+mkdir market-research
+```
+
+3. Navigate into the `market-research` folder:
+
+```bash
+cd market-research
+```
+
+4. Create a subfolder called `data-collection`:
+
+```bash
+mkdir data-collection
+```
+
+## Downloading the YAML File Using `curl`
+
+**For Both Windows and Mac Users:**
+
+Navigate into the `data-collection` folder before using `curl` to download the YAML file (I assume you already are in the folder `market-research`). This ensures the file is saved in the right place: 
+
+```bash
+cd data-collection
+```
+
+Now use the `curl` command to download the `env-scraping.yml` file:
+
+```bash
+curl -LJO https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-scraping.yml
+```
+
+### Understanding `curl` and Its Parameters
+
+After downloading the file, let's revisit what the `curl` command does and its parameters, now with the context of downloading into the `data-collection` folder:
+
+- **`-L`**: Follows any redirects which the server might send as part of the request.
+- **`-J`**: Uses the header-provided filename to save the file.
+- **`-O`**: Saves the file locally with the same name as the filename on the server.
+
+## Setting Up the Anaconda Environment
+
+**Important Note:** Before proceeding with the creation of the Anaconda environment, ensure you are in the `data-collection` folder where the `env-scraping.yml` file is located. This is crucial because the `conda` command looks for the YAML file in your current directory.
+
+**Create the Anaconda Environment:**
+
+```bash
+conda env create -f env-scraping.yml
+```
+This command will create a new environment named `scraping` and install all the dependencies listed in the YAML file.
+
+**Activate the Environment:**
+
+```bash
+conda activate scraping
+```
+Activating the environment will switch your current session to use the Python version and libraries specified in the environment.
+
+### Understanding the YML-file in its Content
+
+**YAML File**: YAML (YAML Ain't Markup Language) is a human-readable data serialization standard that can be used for configuration files and other forms of data that need to be stored and transmitted. In the context of Anaconda, a YAML file specifies the environment's name, the channels to install packages from, and the list of dependencies.
+
+The provided YAML file contains:
+
+- **name**: `scraping` – the environment name.
+- **channels**: 
+  - `conda-forge`: a community-led collection of recipes for conda.
+  - `defaults`: the default channel provided by Anaconda.
+- **dependencies**: the packages and versions to install:
+  - `python=3.11` – Python version 3.11.
+  - `pip` – The Python package installer.
+  - Other packages within the pip subsection for various tasks:
+    - `pandas`, `openpyxl` for data manipulation.
+    - `jupyter` for running Jupyter notebooks.
+    - `altair`, `matplotlib`, `seaborn` for data visualization.
+    - `requests`, `tweepy`, `beautifulsoup4` for web scraping.
+    - `autopep8` for code formatting.
+
+
+
+

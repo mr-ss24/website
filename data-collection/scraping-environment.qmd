@@ -65,17 +65,23 @@ After downloading the file, let's revisit what the `curl` command does and its p
 
 **Important Note:** Before proceeding with the creation of the Anaconda environment, ensure you are in the `data-collection` folder where the `env-scraping.yml` file is located. This is crucial because the `conda` command looks for the YAML file in your current directory.
 
-- Windows User: Open Anaconda Command Prompt and navigate to the subfolder data/collection:
+:::{.callout-tip collapse="true" title="Windows-User"}
+Open Anaconda Command Prompt and navigate to the subfolder data/collection:
 
 ```bash
 cd ..\market-research\data-collection
 ```
+:::
 
-- Mac-User: Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:
+
+:::{.callout-tip collapse="true" title="Mac-User"}
+Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:
 
 ```bash
 cd ~/market-research/data-collection
 ```
+:::
+
 
 Create the Anaconda Environment:
 

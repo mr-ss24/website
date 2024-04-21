@@ -17,6 +17,7 @@ This page contains a weekly overview about the topics, slides and materials for 
 This overview will be updated as the semester progresses.
 :::
 
+
 |	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|
 |	---	|	---	|	---	|	---	|		---		|	---	|
 |	1	|		|	**Introduction**	|		|				|		|
@@ -30,5 +31,5 @@ This overview will be updated as the semester progresses.
 |	9	|	22.04.	|	**Data Collection and Aggregation**	|		|				|		|
 |	10	|	16.04.	|	How to obtain data	|		|		[📑](https://docs.google.com/presentation/d/1zldRDAOqmjoJmY_D4-ZkWfhwaklt-UfAPKH4G5kmFVY/export/pdf)		|		|
 |	11	|	16.04.	|	Webscraping: HTML & CSS basics	|		|		[📺 ⏯](https://kirenz.github.io/codelabs/codelabs/webscraping/#0)		|		|
-|	12	|	22.04.	|	Scraping environment preparation	|		|		[Scraping Environment](https://mr-ss24.github.io/website/data-collection/scraping-environment.html)		|		|
-|	13	|	22.04.	|	Scraping quotes	|		|		[💻 1_scraping_quotes.ipynb](https://colab.research.google.com/github/kirenz/lab-web-scraping/blob/main/ae/1_scraping_quotes.ipynb)		|		|
+|	12	|	22.04.	|	Scraping environment preparation	|		|		[⚒️](https://mr-ss24.github.io/website/data-collection/scraping-environment.html)		|		|
+|	13	|	22.04.	|	Scraping quotes	|		|		[💻](https://colab.research.google.com/github/kirenz/lab-web-scraping/blob/main/ae/1_scraping_quotes.ipynb)		|		|

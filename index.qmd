@@ -25,7 +25,7 @@ This overview will be updated as the semester progresses.
 |	3	|	08.04.	|	Data driven introduction	|		|		[📑](https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf)		|		|
 |	4	|	09.04.	|	Market analysis lab 	|		|		[💻](https://kirenz.github.io/lab-market-analysis)		|		|
 |	5	|	15.04.	|	**Market Research Process**	|		|				|		|
-|	6	|	15.04.	|	Introduction (slides)	|		|		[📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	6	|	15.04.	|	Slides	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
 |	7	|	15.04.	|	Task overview	|		|		[📑](https://docs.google.com/document/d/1Xa_6VkCWHlORthTMt9ITAnK9Z7psL9zxJ4ll44fdZqQ/edit?usp=sharing)		|		|
 |	8	|	22.04.	|	Market and environment analysis (doc)	|		|		[📑](https://docs.google.com/document/d/1bYAHZ7sre5xB7C2XnfBPDHzJpTkI5HyD1w3JNoSSKlg/edit?usp=sharing)		|		|
 |	9	|	22.04.	|	**Data Collection and Aggregation**	|		|				|		|
@@ -33,3 +33,8 @@ This overview will be updated as the semester progresses.
 |	11	|	16.04.	|	Webscraping: HTML & CSS basics	|		|		[📺 ⏯](https://kirenz.github.io/codelabs/codelabs/webscraping/#0)		|		|
 |	12	|	22.04.	|	Scraping environment preparation	|		|		[⚒️](https://mr-ss24.github.io/website/data-collection/scraping-environment.html)		|		|
 |	13	|	22.04.	|	Scraping quotes	|		|		[💻](https://colab.research.google.com/github/kirenz/lab-web-scraping/blob/main/ae/1_scraping_quotes.ipynb)		|		|
+|	14	|	29.04.	|	Web scraping with ChatGPT	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	15	|	29.04.	|	Social Media Monitoring with Tweepy (optional)	|		|		[💻](https://github.com/kirenz/twitter-tutorial)		|		|
+|	16	|	29.04.	|	API Integration	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	17	|		|	**Integrating and Structuring Data**	|		|				|		|
+|	18	|	06.05.	|	Data integration process (architectures)	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|

@@ -17,7 +17,6 @@ This page contains a weekly overview about the topics, slides and materials for 
 This overview will be updated as the semester progresses.
 :::
 
-
 |	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|
 |	---	|	---	|	---	|	---	|		---		|	---	|
 |	1	|		|	**Introduction**	|		|				|		|
@@ -28,7 +27,7 @@ This overview will be updated as the semester progresses.
 |	6	|	15.04.	|	Slides	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
 |	7	|	15.04.	|	Task overview	|		|		[📑](https://docs.google.com/document/d/1Xa_6VkCWHlORthTMt9ITAnK9Z7psL9zxJ4ll44fdZqQ/edit?usp=sharing)		|		|
 |	8	|	22.04.	|	Market and environment analysis (doc)	|		|		[📑](https://docs.google.com/document/d/1bYAHZ7sre5xB7C2XnfBPDHzJpTkI5HyD1w3JNoSSKlg/edit?usp=sharing)		|		|
-|	9	|	22.04.	|	**Data Collection and Aggregation**	|		|				|		|
+|	9	|	22.04.	|	**Secondary Research: Data Collection**	|		|				|		|
 |	10	|	16.04.	|	How to obtain data	|		|		[📑](https://docs.google.com/presentation/d/1zldRDAOqmjoJmY_D4-ZkWfhwaklt-UfAPKH4G5kmFVY/export/pdf)		|		|
 |	11	|	16.04.	|	Webscraping: HTML & CSS basics	|		|		[📺 ⏯](https://kirenz.github.io/codelabs/codelabs/webscraping/#0)		|		|
 |	12	|	22.04.	|	Scraping environment preparation	|		|		[⚒️](https://mr-ss24.github.io/website/data-collection/scraping-environment.html)		|		|
@@ -36,5 +35,8 @@ This overview will be updated as the semester progresses.
 |	14	|	29.04.	|	Web scraping with ChatGPT	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
 |	15	|	29.04.	|	Social Media Monitoring with Tweepy (optional)	|		|		[💻](https://github.com/kirenz/twitter-tutorial)		|		|
 |	16	|	29.04.	|	API Integration	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
-|	17	|		|	**Integrating and Structuring Data**	|		|				|		|
-|	18	|	06.05.	|	Data integration process (architectures)	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	17	|		|	**Primary Research Study Design**	|		|				|		|
+|	18	|	06.05.	|	Population and sample	|	[📚](https://openintro-ims.netlify.app/data-design.html#data-design)	|		[📑](https://docs.google.com/presentation/d/1QPdxp5sFumf9zee-WypsuzSkY7n_hvkhFsdJkRF3-pw/export/pdf)		|	[☑️](https://forms.gle/qPYg55ncRyUGCqXH8)	|
+|	19	|	06.05.	|	Sampling methods	|	[📚](https://openintro-ims.netlify.app/data-design.html#sampling-principles-strategies)	|		[📑](https://docs.google.com/presentation/d/1Rby9NR9F8pu1xHka0Xt1vvbH-oDRfrFC-bwb49IbhA8/export/pdf)		|	[☑️](https://forms.gle/SnQsTPKF5CRQ1Wa49)	|
+|	20	|	06.05.	|	Experiments	|	[📚](https://openintro-ims.netlify.app/data-design.html#experiments)	|		[📑](https://docs.google.com/presentation/d/1FTNBLYBCId2qsL1sMJf3qgBtaFH3hpbUm8lPck5BaTQ/export/pdf)		|	[☑️](https://forms.gle/6Tu92Ez83XANW8Un6)	|
+|	21	|	06.05.	|	Observational Studies	|	[📚](https://openintro-ims.netlify.app/data-design.html#observational-studies)	|		[📑](https://docs.google.com/presentation/d/1Oz5T_nuO1UFcjbliFmsEQWxG1dKJHDPPNWDeTvukxbE/export/pdf)		|	[☑️](https://forms.gle/V36KmsTjeH2finms9)	|

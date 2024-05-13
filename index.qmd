@@ -17,6 +17,7 @@ This page contains a weekly overview about the topics, slides and materials for 
 This overview will be updated as the semester progresses.
 :::
 
+
 |	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|
 |	---	|	---	|	---	|	---	|		---		|	---	|
 |	1	|		|	**Introduction**	|		|				|		|
@@ -40,3 +41,6 @@ This overview will be updated as the semester progresses.
 |	19	|	06.05.	|	Sampling methods	|	[📚](https://openintro-ims.netlify.app/data-design.html#sampling-principles-strategies)	|		[📑](https://docs.google.com/presentation/d/1Rby9NR9F8pu1xHka0Xt1vvbH-oDRfrFC-bwb49IbhA8/export/pdf)		|	[☑️](https://forms.gle/SnQsTPKF5CRQ1Wa49)	|
 |	20	|	06.05.	|	Experiments	|	[📚](https://openintro-ims.netlify.app/data-design.html#experiments)	|		[📑](https://docs.google.com/presentation/d/1FTNBLYBCId2qsL1sMJf3qgBtaFH3hpbUm8lPck5BaTQ/export/pdf)		|	[☑️](https://forms.gle/6Tu92Ez83XANW8Un6)	|
 |	21	|	06.05.	|	Observational Studies	|	[📚](https://openintro-ims.netlify.app/data-design.html#observational-studies)	|		[📑](https://docs.google.com/presentation/d/1Oz5T_nuO1UFcjbliFmsEQWxG1dKJHDPPNWDeTvukxbE/export/pdf)		|	[☑️](https://forms.gle/V36KmsTjeH2finms9)	|
+|	22	|	13.05.	|	**Data cleaning and preprocessing**	|		|				|		|
+|	23	|	13.05.	|	Market research from a data driven perspective	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	24	|	13.05.	|	Pandas lab (task 1-3)	|		|		[💻](https://kirenz.github.io/lab-pandas-intro/)		|		|

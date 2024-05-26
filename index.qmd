@@ -17,7 +17,6 @@ This page contains a weekly overview about the topics, slides and materials for 
 This overview will be updated as the semester progresses.
 :::
 
-
 |	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|
 |	---	|	---	|	---	|	---	|		---		|	---	|
 |	1	|		|	**Introduction**	|		|				|		|
@@ -44,3 +43,5 @@ This overview will be updated as the semester progresses.
 |	22	|	13.05.	|	**Data cleaning and preprocessing**	|		|				|		|
 |	23	|	13.05.	|	Market research from a data driven perspective	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
 |	24	|	13.05.	|	Pandas lab (task 1-3)	|		|		[💻](https://kirenz.github.io/lab-pandas-intro/)		|		|
+|	25	|	27.05.	|	Pandas lab (task 4-7)	|		|		[💻](https://kirenz.github.io/lab-pandas-intro/)		|		|
+|	26	|	27.05.	|	Google forms survey lab	|		|		[💻](https://kirenz.github.io/lab-survey/)		|		|

@@ -44,4 +44,5 @@ This overview will be updated as the semester progresses.
 |	23	|	13.05.	|	Market research from a data driven perspective	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
 |	24	|	13.05.	|	Pandas lab (task 1-3)	|		|		[💻](https://kirenz.github.io/lab-pandas-intro/)		|		|
 |	25	|	27.05.	|	Pandas lab (task 4-7)	|		|		[💻](https://kirenz.github.io/lab-pandas-intro/)		|		|
-|	26	|	27.05.	|	Google forms survey lab	|		|		[💻](https://kirenz.github.io/lab-survey/)		|		|
+|	26	|	03.06.	|	Pandas Lab with a Custom GPT 	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	27	|	03.06.	|	Google forms survey lab	|		|		[💻](https://kirenz.github.io/lab-survey/)		|		|

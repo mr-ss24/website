@@ -17,7 +17,6 @@ This page contains a weekly overview about the topics, slides and materials for 
 This overview will be updated as the semester progresses.
 :::
 
-
 |	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|
 |	---	|	---	|	---	|	---	|		---		|	---	|
 |	1	|		|	**Introduction**	|		|				|		|
@@ -54,3 +53,6 @@ This overview will be updated as the semester progresses.
 |	32	|		|	**Sentiment Analysis and Natural Language Understanding**	|		|				|		|
 |	33	|	24.06.	|	Text Mining Example with Twitter Data	|		|		[💻](https://colab.research.google.com/github/kirenz/lab-textmining-ae/blob/main/ae/1_textmining.ipynb)		|		|
 |	34	|	24.06.	|	Sentiment Analysis with Twitter Data	|		|		[💻](https://colab.research.google.com/github/kirenz/lab-textmining-ae/blob/main/ae/2_sentiment.ipynb)		|		|
+|	35	|	24.06.	|	StudyCheck Example (optinal)	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	36	|	01.07.	|	**Market Segmentation**	|		|				|		|
+|	37	|	01.07.	|	Segmentation basics	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
